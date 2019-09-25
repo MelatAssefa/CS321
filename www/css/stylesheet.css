@@ -1,26 +1,19 @@
-/*Melat A Ali*/
-/*Assignment 2*/
+/* Author: Melat A Ali 
+   Project: Assignment 2 --> */
+
+/* HEADER
+   References:
+   https://envato.com/blog/css3-typography-code-snippets/ 
+   Colored 3-D Effect - Brian Guerrero */
 
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:700");
 html {
   -webkit-font-smoothing: antialiased;
-}
+} 
 
-.header {
-  width: 100%;
-  height:50%;
-}
-
-.header h1 {
-  font-size: 150px;
-}
-
-.header2 h1 {
-  font-size: 70px;
-}
-
-.title1 {
+.title {
   font-family: "Dancing Script";
+  font-size: 110px;
   text-align: center;
   font-weight: 700;
   color: white;
@@ -28,40 +21,39 @@ html {
   text-shadow: -10px 0 rgba(0, 255, 255, 0.4), 10px 0 rgba(255, 0, 255, 0.4);
 }
 
+.header {
+  width: 96.85%;
+  height:50%;
+  padding: 20px;
+  text-align: center;
+  background: #2E4756;
+  left:0;
+}
+
+/*BODY*/
+
 body {
   background-color:#16262E;
 }
 
 p {
-  float: right;
   color: white;
+  font-size:20px;
+  text-align:justify;
+  font: "Arial";
 }
 
-.header {
-  padding: 20px;
-  text-align: center;
-  background: #2E4756;
-  color: black;
-}
+/*IMAGES*/
 
-.header2 {
-  padding: 10px;
-  text-align: center;
-  background: #2E4756;
-  color: black;
-  font-size: 20px;
-}
 img {
-  max-width: 50%;
-  height: auto;
-  display: block;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 20%;
-  display: block;
-  margin: 20 auto;
-  float:left;
-}
+  max-width: 75px;
+  max-height:85px;
+  display: inline;
+  margin: 0 0;}
+
+/*MENU
+References: 
+https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar*/
 
 ul {
   list-style-type: none;
@@ -76,42 +68,55 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
+/* drop1 */
+li.drop1 {
   display: inline-block;
-  color: white;
+}
+
+.drop1:hover .drop3 {
+  display: block;
+}
+
+/* drop2 */
+
+li a, .drop2 {
+  display: inline-block;
+  color: #FFFFFF;
   text-align: center;
   padding: 21px 21px;
   text-decoration: none;
-  width: 160px;
+  width: 200px;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .drop1:hover .drop2 {
   background-color: #9FA2B2;
 }
 
-li.dropdown {
-  display: inline-block;
-}
+/* drop3 */
 
-.dropdown-content {
+.drop3 {
   display: none;
   position: absolute;
   background-color: #DBC2CF;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  min-width: 200px;
 }
 
-.dropdown-content a {
-  color: black;
+.drop3 a {
+  color: #fffff;
   padding: 16px 16px;
   text-decoration: none;
   display: block;
   text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+/*FOOTER*/
 
-.dropdown:hover .dropdown-content {
-  display: block;
+footer {
+  bottom: 0;
+  background-color:#3C7A89;
+  font-size:20px;
+  height:40px;
+  width: 100%;
+  text-align: center;
+  color:white;
 }
