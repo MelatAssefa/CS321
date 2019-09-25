@@ -9,7 +9,7 @@
 
     <title>Melat's Film Guide</title>
     <meta charset=”utf-8”>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
     <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 
     <!--Favicon: https://www.101computing.net/html-how-to-add-a-favicon/
