@@ -10,7 +10,7 @@
     <title>Melat's Film Guide</title>
     <meta charset=”utf-8”>
     <link rel="stylesheet" href="css/style.css">
-    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel='icon' href='http://ali8.cs321.simmons.edu/images/favicon.ico' type='image/x-icon'/ >
 
     <!--Favicon: https://www.101computing.net/html-how-to-add-a-favicon/
     https://www.iconfinder.com/icons/1298806/action_design_movie_process_round_icon-->
