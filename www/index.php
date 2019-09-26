@@ -25,7 +25,7 @@
 
     <div class="menu">
       <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.php">Home</a></li>
       <li class="drop1">
         <a href="comedy.html" class="drop2">Comedy</a>
         <div class="drop3">
