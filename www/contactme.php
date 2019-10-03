@@ -20,12 +20,12 @@
   <body>
 
     <div class="header">
-        <h1 class="title">Contact Me</h1>
+      <h1 class="title2">Contact Me</h1>
     </div>
 
     <div class="menu">
       <ul>
-      <li><a href="index.php">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li class="drop1">
         <a href="comedy.html" class="drop2">Comedy</a>
         <div class="drop3">
@@ -60,7 +60,7 @@
           <a href="movies\goodtime.html">Good Time</a>
         </div>
       </li>
-      <li><a href="contactme.php">Contact Me</a></li>
+      <li><a href="contactme.html">Contact Me</a></li>
     </ul>
     </div>
     
@@ -118,9 +118,9 @@
     </form>
 
     <footer>
-      <div class="text">
-        <h6> Melat's Film Guide </h6>
-      </div>
+      <h6> 
+        <img src="http://ali8.cs321.simmons.edu/images/favicon.png"> &copy 2019 CS321 | Melat's Film Guide 
+      </h6>
     </footer>
 
   </body>
