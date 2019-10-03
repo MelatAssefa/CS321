@@ -29,7 +29,7 @@
       <li class="drop1">
         <a href="comedy.html" class="drop2">Comedy</a>
         <div class="drop3">
-          <a href="movies\thisistheend.html">This Is The End</a>
+          <a href="thisistheend.html">This Is The End</a>
           <a href="movies\theinterview.html">The Interview</a>
           <a href="movies\thedictator.html">The Dictator</a>
           <a href="movies\amelie.html">Amelie</a>
@@ -88,9 +88,9 @@
     <img src="http://ali8.cs321.simmons.edu/images/50firstdates.jpg">
 
     <footer>
-      <div class="text">
-        <h6> Melat's Film Guide </h6>
-      </div>
+      <h6> 
+        <img src="http://ali8.cs321.simmons.edu/images/favicon.png"> &copy 2019 CS321 | Melat's Film Guide 
+      </h6>
     </footer>
 
   </body>
