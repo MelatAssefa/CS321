@@ -30,6 +30,16 @@ html {
   left:0;
 }
 
+.title2 {
+  font-family: "Dancing Script";
+  font-size: 73px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+  text-shadow: -10px 0 rgba(0, 255, 255, 0.4), 10px 0 rgba(255, 0, 255, 0.4);
+}
+
 /*BODY*/
 
 body {
@@ -47,7 +57,7 @@ p {
 
 img {
   max-width: 75px;
-  max-height:85px;
+  max-height: 85px;
   display: inline;
   margin: 0 0;}
 
@@ -118,6 +128,7 @@ form {
   padding: 1em;
   border: 0.5 px solid #FFFFFF;
   border-radius: 0.5em;
+  padding-bottom:30px;
 }
 
 form h2 {
@@ -177,11 +188,20 @@ input[type=submit] {
 /*FOOTER*/
 
 footer {
-  bottom: 0;
+  position:fixed;
   background-color:#3C7A89;
-  font-size:20px;
+  bottom:0;
   height:40px;
-  width: 100%;
-  text-align: center;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
   color:white;
+  font-size:20px; 
+}
+
+footer img {
+  max-width:15px;
+  max-height:20px;
+  padding:0px;
 }
