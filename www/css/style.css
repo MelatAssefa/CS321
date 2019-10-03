@@ -69,6 +69,7 @@ li {
 }
 
 /* drop1 */
+
 li.drop1 {
   display: inline-block;
 }
@@ -113,7 +114,7 @@ li a:hover, .drop1:hover .drop2 {
 
 form {
   margin: 0 auto;
-  width: 800px;
+  width: 75%;
   padding: 1em;
   border: 0.5 px solid #FFFFFF;
   border-radius: 0.5em;
@@ -130,7 +131,7 @@ fieldset {
 
 .formtitle {
   margin: 0;
-  background-color: #c0c0c0;
+  background-color: #9FA2B2;
 }
 
 .formitem, .button {
