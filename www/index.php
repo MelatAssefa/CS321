@@ -89,7 +89,7 @@
 
     <footer>
       <div class="text">
-        <h6> Melat's Film Guide - CS321 - Assignment 2</h6>
+        <h6> Melat's Film Guide </h6>
       </div>
     </footer>
 
