@@ -63,86 +63,63 @@
       <li><a href="contactme.php">Contact Me</a></li>
     </ul>
     </div>
-
- <article>
-    <div id="notification"> </div>
-    </div>
-    <h1> Contact Us </h1>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script>
-      $("document")/ready(function() {
-        $("#submit").click(function() {
-          checkName();
-        }
-        );
-
-        $("#name").change(function() {
-          console.log("something changed");
-          checkName();
-        }
-        );
-
-      }
-
-      );
-
-      function checkName() {
-
-        if($.trim( $ ("#name").val())=="") {
-          $("#errorname").html("<p>You misspelt your name.</p>");
-          $("#errorname").addClass( "showerror")
-        }
-        else {
-          $("#errorname").html("");
-          $("#erroname").removeClass("showerror");
-        }
-
-      }
-    </script>
-
+    
     <form action='#' method="POST">
-      <label for="firstname">First Name: </label>
-      <div class="errorfirstname"> </div>
-      <input type="text" name="firstname" id="firstname">
-      <input type="button" name="submitbutton" id="submitbutton" value="Click Me Here"> 
+       
+       <fieldset>
+
+        <div class="formtitle">
+          <h2> FILL OUT THIS FORM TO CONTACT ME WITH ANY QUESTIONS! </h2> <br>
+        </div>
+
+        <div class="formitem">
+          <label for="firstname">First Name: </label>
+          <div class="errorfirstname"> </div>
+          <input type="text" name="firstname" id="firstname" required>
+        </div>
+
+        <div class="formitem">
+          <label for="lastname">Last Name: </label>
+          <div class="errorlastname"> </div>
+          <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div class="formitem">
+          <label for="phone">Phone: </label>
+          <div id="errorphone" class="error"></div>
+          <input type="phone" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000">
+        </div>
+
+        <div class="formitem">
+          <label for="email">Email: </label>
+          <div id="erroremail" class="error"></div>
+          <input type="email" id="email" name="email" placeholder="username@mail.com" required>
+        </div>
+
+        <div class="formitem">
+          <label for="regarding">I'm contacting regarding: </label>
+          <div id="errorregarding" class="error"></div>
+            <input type="radio" name="gender" value="swim" checked> Swim<br>
+            <input type="radio" name="gender" value="run"> Run<br>
+            <input type="radio" name="gender" value="bike"> Bike<br>
+        </div>
+
+        <div class="formitem">
+          <label for="notes">Additional Notes: </label>
+          <div id="errornotes" class="error"></div>
+          <textarea id="msg" name="usermessage"></textarea>
+        </div>
+        
+
+        <div class="button">
+          <input type="submit" name="submit" id="submit" value="Submit">
+        </div>  
+      </fieldset>
     </form>
-
-    <form action='#' method="POST">
-
-      <div class="formitem">
-        <label for="phone">Phone: </label>
-        <div id="errorphone" class="error"></div>
-        <input type="phone" id="phone" name="phone" placeholder="000-000-0000">
-      </div>
-
-      <div class="formitem">
-        <label for="email">Email: </label>
-        <div id="erroremail" class="error"></div>
-        <input type="email" id="email" name="email" placeholder="username@mail.com">
-      </div>
-
-      <div class="formitem">
-        <label for="regarding">I'm contacting regarding: </label>
-        <div id="errorregarding" class="error"></div>
-        <select name=>
-              <option value="#">Select One</option>
-              <option value="service">Service Request</option>
-              <option value="incident">Reporting Incident</option>
-              <option value="question">Quick Question</option>
-              <option value="feedback">Just a feedback</option>
-        </select>
-      </div>
-
-      <div class="button">
-        <input type="submit" name="submit" id="submit" value="Submit">
-      </div>
-
-    </form>
-  </article>
 
     <footer>
       <div class="text">
-        <h6> Melat's Film Guide - CS321 - Assignment 2</h6>
+        <h6> Melat's Film Guide </h6>
       </div>
     </footer>
 
