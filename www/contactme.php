@@ -17,6 +17,16 @@
 
   </head>
 
+  <script>
+  function toggle(source) {
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i] != source)
+            checkboxes[i].checked = source.checked;
+    }
+}
+  </script>
+
   <body>
 
     <div class="header">
@@ -73,44 +83,44 @@
         </div>
 
         <div class="formitem">
-          <label for="firstname">First Name: </label>
+          <label for="firstname">FIRST NAME: </label>
           <div class="errorfirstname"> </div>
           <input type="text" name="firstname" id="firstname" required>
         </div>
 
         <div class="formitem">
-          <label for="lastname">Last Name: </label>
+          <label for="lastname">LAST NAME: </label>
           <div class="errorlastname"> </div>
           <input type="text" name="lastname" id="lastname">
         </div>
 
         <div class="formitem">
-          <label for="phone">Phone: </label>
+          <label for="phone">PHONE: </label>
           <div id="errorphone" class="error"></div>
           <input type="phone" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000">
         </div>
 
         <div class="formitem">
-          <label for="email">Email: </label>
+          <label for="email">EMAIL: </label>
           <div id="erroremail" class="error"></div>
           <input type="email" id="email" name="email" placeholder="username@mail.com" required>
         </div>
 
         <div class="formitem">
-          <label for="regarding">I'm contacting regarding: </label>
-          <div id="errorregarding" class="error"></div>
-            <input type="radio" name="gender" value="swim" checked> Swim<br>
-            <input type="radio" name="gender" value="run"> Run<br>
-            <input type="radio" name="gender" value="bike"> Bike<br>
-        </div>
-
-        <div class="formitem">
-          <label for="notes">Additional Notes: </label>
+          <label for="notes">ADD A NOTE: </label>
           <div id="errornotes" class="error"></div>
           <textarea id="msg" name="usermessage"></textarea>
         </div>
-        
 
+        <div class="checkboxes">
+          <label for="regarding">REQUEST: </label>
+          <div id="errorregarding" class="error"></div>
+            <input type="checkbox" onclick="toggle(this);" /> Select All<br>
+            <input type="checkbox" name="option1" value="information" checked> Movie Information<br>
+            <input type="checkbox" name="option2" value="suggestion"> Suggest a Movie<br>
+            <input type="checkbox" name="option3" value="feedback"> Provide Feedback<br>
+        </div>
+      
         <div class="button">
           <input type="submit" name="submit" id="submit" value="Submit">
         </div>  
