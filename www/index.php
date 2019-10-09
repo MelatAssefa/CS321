@@ -60,7 +60,7 @@
           <a href="movies\goodtime.html">Good Time</a>
         </div>
       </li>
-      <li><a href="contactme.php">Contact Me</a></li>
+      <li><a href="contact.php">Contact Me</a></li>
     </ul>
     </div>
 
