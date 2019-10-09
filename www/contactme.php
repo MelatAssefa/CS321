@@ -1,9 +1,3 @@
-<!--<?php
-if($_POST["message"]) {
-    mail("melatassefaab@gmail.com", "Form to email message", $_POST["message"], "From: melatsfilmguide@email.address");
-}
-? -->
-
 <!doctype html>
 
 <html lang="en">
@@ -31,7 +25,7 @@ if($_POST["message"]) {
 
     <div class="menu">
       <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.php">Home</a></li>
       <li class="drop1">
         <a href="comedy.html" class="drop2">Comedy</a>
         <div class="drop3">
@@ -66,7 +60,7 @@ if($_POST["message"]) {
           <a href="movies\goodtime.html">Good Time</a>
         </div>
       </li>
-      <li><a href="contactme.html">Contact Me</a></li>
+      <li><a href="contactme.php">Contact Me</a></li>
     </ul>
     </div>
     
