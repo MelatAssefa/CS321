@@ -5,7 +5,7 @@
   <head>
 
     <!-- Author: Melat A Ali -->
-    <!-- Project: Assignment 2 -->
+    <!-- Project: Assignment 3 -->
 
     <title>Melat's Film Guide</title>
     <meta charset=”utf-8”>
