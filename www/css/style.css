@@ -84,6 +84,13 @@ img {
   padding:0.2px;
   margin: 0 0;   
 }
+
+.type3 {
+  display: inline;
+  padding:0.2px;
+  margin: 0 0;   
+}
+
 /*MENU
 References: 
 https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar*/
