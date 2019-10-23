@@ -13,7 +13,7 @@
   <body>
 
     <div class="header">
-            <img src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
+    <img src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/theinterview.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/trueromance.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/push.jpg">

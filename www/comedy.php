@@ -5,7 +5,7 @@
 <html lang="en">
        
   <head>
-    <title>Comedy| Melat's Film Guide</title>
+    <title>Comedy | Melat's Film Guide</title>
     <meta charset=”utf-8”>
     <link rel="stylesheet" href="css/style.css">
   </head>
