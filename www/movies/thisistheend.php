@@ -16,11 +16,13 @@
       <h1 class="title2">This is the End</h1>
     </div>
     
-    <iframe src="https://open.spotify.com/embed/playlist/64sPn4CkHsBYqQRaBkSx4B" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/playlist/64sPn4CkHsBYqQRaBkSx4B" 
+            width="300" height="380" frameborder="0" allowtransparency="true" 
+            allow="encrypted-media"></iframe>
       
     <img class="type3" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
 
-    <?php include 'bottom.php';?>
+    <?php include '../bottom.php';?>
 
   </body>
 
