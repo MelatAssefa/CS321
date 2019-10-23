@@ -17,7 +17,7 @@
     </div>
     
     <iframe src="https://open.spotify.com/embed/playlist/64sPn4CkHsBYqQRaBkSx4B" 
-            width="300" height="380" frameborder="0" allowtransparency="true" 
+            width="300" height="360" frameborder="0" allowtransparency="true" 
             allow="encrypted-media"></iframe>
       
     <img class="type3" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
