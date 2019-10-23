@@ -1,4 +1,4 @@
-<?php include 'include/top.phpl'; ?>
+<?php include 'include/top.php'; ?>
 
 <h1 class="hidden"> Main Content </h1>
 <section>
