@@ -30,7 +30,6 @@
     <img src="http://ali8.cs321.simmons.edu/images/thewolfofwallstreet.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/panslabyrinth.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/underthetuscansun.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/50firstdates.jpg">
 
         <h1 class="title">Melat's Film Guide</h1>
     </div>
