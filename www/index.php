@@ -25,11 +25,11 @@
 
     <div class="menu">
       <ul>
-      <li><a href="index.php">Home</a></li>
+      <li><a href="try.php">Home</a></li>
       <li class="drop1">
-        <a href="comedy.html" class="drop2">Comedy</a>
+        <a href="comedy.php" class="drop2">Comedy</a>
         <div class="drop3">
-          <a href="thisistheend.html">This Is The End</a>
+          <a href="thisistheend.php">This Is The End</a>
           <a href="movies\theinterview.html">The Interview</a>
           <a href="movies\thedictator.html">The Dictator</a>
           <a href="movies\amelie.html">Amelie</a>
