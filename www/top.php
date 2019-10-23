@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-    <link rel="stylesheet" href=".../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel='icon' href='http://ali8.cs321.simmons.edu/images/favicon.ico' type='image/x-icon'/ >
          
     <!--Favicon: https://www.iconfinder.com/icons/1298806/action_design_movie_process_round_icon-->
