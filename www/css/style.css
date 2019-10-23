@@ -13,7 +13,7 @@ html {
 
 .title {
   font-family: "Dancing Script";
-  font-size: 200px;
+  font-size: 150px;
   text-align: center;
   font-weight: 700;
   color: rgba(255, 255, 0, 0.7);
@@ -23,7 +23,7 @@ html {
 
 .header {
   width: 96.85%;
-  height:90%;
+  height:60%;
   padding: 20px;
   text-align: center;
   background: #181818;
