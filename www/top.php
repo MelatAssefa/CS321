@@ -18,45 +18,41 @@
 
   <body>
 
-    <div class="header">
-        <h1 class="title">Melat's Film Guide</h1>
-    </div>
-
     <div class="menu">
       <ul>
       <li><a href="index.php">Home</a></li>
       <li class="drop1">
         <a href="comedy.php" class="drop2">Comedy</a>
         <div class="drop3">
-          <a href="thisistheend.php">This Is The End</a>
-          <a href="movies\theinterview.html">The Interview</a>
-          <a href="movies\thedictator.html">The Dictator</a>
-          <a href="movies\amelie.html">Amelie</a>
+          <a href="movies\thisistheend.php">This Is The End</a>
+          <a href="movies\theinterview.php">The Interview</a>
+          <a href="movies\thedictator.php">The Dictator</a>
+          <a href="movies\amelie.php">Amelie</a>
         </div>
       <li class="drop1">
-        <a href="drama.html" class="drop2">Drama</a>
+        <a href="drama.php" class="drop2">Drama</a>
         <div class="drop3">
-          <a href="movies\500daysofsummer.html">500 Days of Summer</a>
-          <a href="movies\thewolfofwallstreet.html">The Wolf of Wall Street</a>
-          <a href="movies\panslabyrinth.html">Pan's Labyrinth</a>
-          <a href="movies\underthetuscansun.html">Under The Tuscan Sun</a>
+          <a href="movies\500daysofsummer.php">500 Days of Summer</a>
+          <a href="movies\thewolfofwallstreet.php">The Wolf of Wall Street</a>
+          <a href="movies\panslabyrinth.php">Pan's Labyrinth</a>
+          <a href="movies\underthetuscansun.php">Under The Tuscan Sun</a>
 
         </div>
       </li>
       <li class="drop1">
-        <a href="crime.html" class="drop2">Crime</a>
+        <a href="crime.php" class="drop2">Crime</a>
         <div class="drop3">
-          <a href="movies\pulpfiction.html">Pulp Fiction</a>
-          <a href="movies\babydriver.html">Baby Driver</a>
-          <a href="movies\trueromance.html">True Romance</a>
+          <a href="movies\pulpfiction.php">Pulp Fiction</a>
+          <a href="movies\babydriver.php">Baby Driver</a>
+          <a href="movies\trueromance.php">True Romance</a>
         </div>
       </li>
       <li class="drop1">
-        <a href="thriller.html" class="drop2">Thriller</a>
+        <a href="thriller.php" class="drop2">Thriller</a>
         <div class="drop3">
-          <a href="movies\push.html">Push</a>
-          <a href="movies\nerve.html">Nerve</a>
-          <a href="movies\goodtime.html">Good Time</a>
+          <a href="movies\push.php">Push</a>
+          <a href="movies\nerve.php">Nerve</a>
+          <a href="movies\goodtime.php">Good Time</a>
         </div>
       </li>
       <li><a href="contact.php">Contact Me</a></li>
