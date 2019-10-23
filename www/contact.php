@@ -79,11 +79,7 @@
       </fieldset>
     </form>
 
-    <footer>
-      <h6> 
-        <img src="http://ali8.cs321.simmons.edu/images/favicon.png"> &copy 2019 CS321 | Melat's Film Guide 
-      </h6>
-    </footer>
+<?php include 'bottom.php';?>
 
   <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
