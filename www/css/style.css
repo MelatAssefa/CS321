@@ -16,7 +16,7 @@ html {
   font-size: 110px;
   text-align: center;
   font-weight: 700;
-  color: rgb(255,20,147);
+  color: rgba(255,0,255,0.6);
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
   text-shadow: -10px 0 #383838, 10px 0 rgba(255, 0, 0, 0.7);
 }
