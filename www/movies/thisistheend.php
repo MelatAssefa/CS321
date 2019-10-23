@@ -7,7 +7,7 @@
   <head>
     <title>This is the End | Melat's Film Guide</title>
     <meta charset=”utf-8”>
-    <link rel="stylesheet" href=".../css/style.css">
+    <link rel="stylesheet" href="http://ali8.cs321.simmons.edu/css/style.css">
   </head>
 
   <body>
