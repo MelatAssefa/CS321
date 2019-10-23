@@ -1,4 +1,4 @@
-<?php include 'top.php'; ?>
+<?php include 'http://ali8.cs321.simmons.edu/top.php'; ?>
 
 <!doctype html>
 
@@ -6,8 +6,6 @@
        
   <head>
     <title>Contact Me | Melat's Film Guide</title>
-    <meta charset=”utf-8”>
-    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -85,7 +83,7 @@
       </fieldset>
     </form>
 
-<?php include 'bottom.php';?>
+<?php include 'http://ali8.cs321.simmons.edu/bottom.php';?>
 
   <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>

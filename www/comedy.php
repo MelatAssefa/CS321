@@ -1,4 +1,4 @@
-<?php include 'top.php'; ?>
+<?php include 'http://ali8.cs321.simmons.edu/top.php'; ?>
 
 <!doctype html>
 
@@ -6,8 +6,6 @@
        
   <head>
     <title>Comedy | Melat's Film Guide</title>
-    <meta charset=”utf-8”>
-    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -27,7 +25,7 @@
         <h1 class="title3">Comedy</h1>
     </div>
 
-    <?php include 'bottom.php';?>
+    <?php include 'http://ali8.cs321.simmons.edu/bottom.php';?>
 
   </body>
 
