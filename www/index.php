@@ -1,4 +1,4 @@
-<?php include 'http://ali8.cs321.simmons.edu/top.php'; ?>
+<?php include 'top.php'; ?>
 
 <!doctype html>
 
@@ -55,7 +55,7 @@
     <img src="http://ali8.cs321.simmons.edu/images/underthetuscansun.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/50firstdates.jpg">
 
-    <?php include 'http://ali8.cs321.simmons.edu/bottom.php';?>
+    <?php include 'bottom.php';?>
 
   </body>
 

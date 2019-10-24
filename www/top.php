@@ -19,7 +19,7 @@
       <li class="drop1">
         <a href="http://ali8.cs321.simmons.edu/comedy.php" class="drop2">Comedy</a>
         <div class="drop3">
-          <a href="movies\thisistheend.php">This Is The End</a>
+          <a href="thisistheend.php">This Is The End</a>
           <a href="movies\theinterview.php">The Interview</a>
           <a href="movies\thedictator.php">The Dictator</a>
           <a href="movies\amelie.php">Amelie</a>

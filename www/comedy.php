@@ -1,4 +1,4 @@
-<?php include 'http://ali8.cs321.simmons.edu/top.php'; ?>
+<?php include 'top.php'; ?>
 
 <!doctype html>
 
@@ -25,7 +25,7 @@
         <h1 class="title3">Comedy</h1>
     </div>
 
-    <?php include 'http://ali8.cs321.simmons.edu/bottom.php';?>
+    <?php include 'bottom.php';?>
 
   </body>
 
