@@ -9,12 +9,54 @@
   </head>
 
   <body>
+      
+    <?php
+$firstnameErr =  $lastnameErr = $emailErr = $phoneErr = "";
+$firstname = $lastname = $email = $phone = "";
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["firstname"])) {
+    $firstnameErr = "First Name is required";
+  } else {
+    $firstname = test_input($_POST["firstname"]);
+    if (!preg_match("/^[a-zA-Z]{3,16}$/",$firstname)) {
+      $firstnameErr = "Invalid Input";
+    }
+  }
+  
+  if (empty($_POST["lastname"])) {
+    $lastnameErr = "Last Name is required";
+  } else {
+    $lastname = test_input($_POST["flastname"]);
+    if (!preg_match("/^[a-zA-Z]{3,16}$/",$lastname)) {
+      $lastnameErr = "Invalid Input";
+    }
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format";
+    }
+  }
+    
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
     <div class="header">
       <h1 class="title2">Contact Me</h1>
     </div>
-    
-    <form name="form1" id="form1">
+     
+      
+    <form name="form1" id="form1"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
        
        <fieldset>
 
@@ -25,25 +67,25 @@
         <div class="formitem">
           <label for="firstname">FIRST NAME: </label>
           <div class="errorfirstname"> </div>
-          <input type="text" name="firstname" id="firstname" required>
+          <input type="text" name="firstname" id="firstname" value="<?php echo $firstname;?>">
         </div>
 
         <div class="formitem">
           <label for="lastname">LAST NAME: </label>
           <div class="errorlastname"> </div>
-          <input type="text" name="lastname" id="lastname" required>
+          <input type="text" name="lastname" id="lastname">
         </div>
 
         <div class="formitem">
           <label for="phone">PHONE: </label>
           <div class="errorphone"></div>
-          <input type="phone" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" required>
+          <input type="phone" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$">
         </div>
 
         <div class="formitem">
           <label for="email">EMAIL: </label>
           <div class="erroremail"></div>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email">
         </div>
 
         <div class="formitem">
@@ -82,70 +124,14 @@
 
       </fieldset>
     </form>
-
+      
+<span class="error">* <?php echo $firstnameErr;?></span>
+<span class="error">* <?php echo $lastnameErr;?></span>
+<span class="error">* <?php echo $emailErr;?></span>
+<span class="error">* <?php echo $phoneErr;?></span>
+      
 <?php include 'bottom.php';?>
-
-  <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
-  <script src="js/jquery.validate.js"></script>
-
-  <script>
-
-    $(document).ready(function() {
-
-      //First Name Validation
-
-      $("#firstname").on("change", function() {
-        if ( $(this).val().match('^[a-zA-Z]{3,16}$') ) {
-          return(true);
-        } else if ( $(this).val().match("") ){
-          console.log("Invalid firstname");
-          $('input[name=firstname]').val("Enter a Valid First Name");
-          return false;
-        } else {console.log("Invalid firstname");
-          $('input[name=firstname]').val("Enter a Valid First Name");
-          return false;
-        }
-      });
-
-      //Last Name Validation
-
-      $("#lastname").on("change", function() {
-        if ( $(this).val().match('^[a-zA-Z]{3,16}$') ) {
-          return(true);
-        } else if ( $(this).val().match("") ){
-          console.log("Invalid lastname");
-          $('input[name=lastname]').val("Enter a Valid Last Name");
-          return false;
-        } else {console.log("Invalid lastname");
-          $('input[name=lastname]').val("Enter a Valid Last Name");
-          return false;
-        }
-      });
-
-      //Checkbox Validation
-
-      $('#form1').on('submit', function (e) {
-        if ($("input[type=checkbox]:checked").length < 2) {
-          e.preventDefault();
-          console.log("Over two checkboxes not checked");
-          $("#errors").html("<h5>At least two checkboxes must be checked!</h5>");
-          $("#errors").addClass("showerror")
-          return false;
-        }
-      });
-
-    //Checkboxes for Extra Credit
-  
-      $('#selectall').click(function(event) {
-        var $that = $(this);
-        $(':checkbox').each(function() {
-          this.checked = $that.is(':checked');
-        });
-      });
-    });
-
-  </script>
+      
   </body>
 
 </html>

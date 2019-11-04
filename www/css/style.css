@@ -224,6 +224,8 @@ textarea {
   padding:0px;
 }
 
+.error {color: #FF0000;}
+
 .errors {
   color:black;
   font-size:5px;
