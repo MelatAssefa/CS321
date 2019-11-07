@@ -13,7 +13,7 @@ html {
 
 .title {
   font-family: "Dancing Script";
-  font-size: 130px;
+  font-size: 11vw;
   text-align: center;
   font-weight: 700;
   color: rgba(255, 255, 0, 0.7);
@@ -71,8 +71,6 @@ p {
 /*IMAGES*/
 
 img {
-  max-width: 81px;
-  max-height: 86px;
   display: inline;
   padding:0.2px;
   margin: 0 0;}
@@ -266,7 +264,7 @@ footer {
   background-color:#181818;
   bottom:0;
   height:40px;
-  width:100%;
+  width:98.75%;
   display:flex;
   align-items:center;
   justify-content: center;
@@ -278,4 +276,7 @@ footer img {
   max-width:15px;
   max-height:20px;
   padding:0px;
+}
+
+@media only screen and (max-width: 600px) {
 }
