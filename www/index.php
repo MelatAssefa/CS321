@@ -35,7 +35,7 @@
         <h1 class="title">Melat's Film Guide</h1>
         
     <img src="http://ali8.cs321.simmons.edu/images/babydriver.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/circle.jpg">
+    <img src="http://ali8.cs321.simmons.edu/images/ .jpg">
     <img src="http://ali8.cs321.simmons.edu/images/onceuponatimeinhollywood.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/50firstdates.jpg">
     <img src="http://ali8.cs321.simmons.edu/images/nerve.jpg">
