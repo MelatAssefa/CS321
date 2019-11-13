@@ -1,9 +1,3 @@
-<?php
-if(isset($_POST['buttonImport'])) {
-    copy($_FILES['xmlFile']['tmp_name'], 
-            'data/'.$_FILES['xmlFile']['tmp_name']);
-}
-?>
 <form method="post" enctype="multipart/form-data">
     XML File <input tupe="file" name="xmlFile">
     <br>
