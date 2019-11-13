@@ -10,9 +10,10 @@
 
   <body>
 
-    <div class="header">
-      <h1 class="title2">This is the End</h1>
-    </div>
+    <h1 class="logo">
+      <span class="word1">This</span>
+      <span class="word2">Is The End</span>
+    </h1>
     
     <iframe src="https://open.spotify.com/embed/playlist/64sPn4CkHsBYqQRaBkSx4B" 
             width="300" height="360" frameborder="0" allowtransparency="true" 
