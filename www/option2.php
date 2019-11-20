@@ -9,7 +9,7 @@
     <div id="wrapper">
         <div id="feed_div">
             <?php
-            $rss = simplexml_load_file('https://rss.app/feeds/dRHgCM8eL5NzVz2E.xml');
+            $rss = simplexml_load_file('https://rss.app/feeds/dC6VzWV18qp2uCPw.xml');
             echo '<h1 class="title">'. $rss->channel->title . '</h1>';	
             foreach ($rss->channel->item as $item) 
             {
