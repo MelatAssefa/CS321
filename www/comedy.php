@@ -27,8 +27,8 @@
         <br>
         
     <a href="#thisistheend">
-        <img class="type2" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
-    </a>
+       <img class="type2" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
+    </a> 
     <a href="#theinterview">
        <img class="type2" src="http://ali8.cs321.simmons.edu/images/theinterview.jpg">
     </a>    

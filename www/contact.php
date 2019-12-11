@@ -8,10 +8,21 @@
     <title>Contact Me | Melat's Film Guide</title>
   </head>
 
+  <style>
+      
+    body {
+        background-image: url('images/backgrounf.jpg'); }
+    
+  </style>
+  
   <body>
+<br>
+<br>
+<br>
+<br>
       
 <?php
-    
+   
 $firstnameErr =  $lastnameErr = $emailErr = $phoneErr = "";
 $firstname = $lastname = $email = $phone = "";
 
@@ -21,16 +32,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
     $firstname = test_input($_POST["firstname"]);
     if (!preg_match("/^[a-zA-Z]{3,16}$/",$firstname)) {
-      $firstnameErr = "Invalid Input";
+      $firstnameErr = "Invalid Input for First Name";
     }
   }
   
   if (empty($_POST["lastname"])) {
     $lastnameErr = "Last Name is required";
   } else {
-    $lastname = test_input($_POST["flastname"]);
+    $lastname = test_input($_POST["lastname"]);
     if (!preg_match("/^[a-zA-Z]{3,16}$/",$lastname)) {
-      $lastnameErr = "Invalid Input";
+      $lastnameErr = "Invalid Input for Last Name";
     }
   }
   
@@ -39,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
     $email = test_input($_POST["email"]);
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $emailErr = "Invalid email format";
+      $emailErr = "Invalid Email Format";
     }
   } 
 }
@@ -55,14 +66,16 @@ function test_input($data) {
       <h1 class="title2">Contact Me</h1>
     </div>
      
-      
-    <form name="form1" id="form1"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+    <form name="form1" id="form1"  action="formprocessor.php" method=”POST” enctype=”multipart/form-data”>
        
        <fieldset>
 
         <div class="formtitle">
           <h2> FILL OUT THIS FORM TO CONTACT ME WITH ANY QUESTIONS! </h2> <br>
         </div>
+           
+           <br>
+           <br>
 
         <div class="formitem">
           <label for="firstname">FIRST NAME: </label>
@@ -75,13 +88,7 @@ function test_input($data) {
           <div class="errorlastname"> </div>
           <input type="text" name="lastname" id="lastname">
         </div>
-
-        <div class="formitem">
-          <label for="phone">PHONE: </label>
-          <div class="errorphone"></div>
-          <input type="phone" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$">
-        </div>
-
+           
         <div class="formitem">
           <label for="email">EMAIL: </label>
           <div class="erroremail"></div>
@@ -89,7 +96,9 @@ function test_input($data) {
         </div>
       
         <div class="button">
-          <input type="submit" name="submit" id="submit" value="Submit">
+          <a href="#send">
+            <input type="submit" name="submit" id="submit" value="Submit">
+          </a>
         </div>  
 
         <div id="errors" class="error"></div>
@@ -98,13 +107,15 @@ function test_input($data) {
     </form>
       
 <span class="error">* <?php echo $firstnameErr;?></span>
+<br>
 <span class="error">* <?php echo $lastnameErr;?></span>
+<br>
 <span class="error">* <?php echo $emailErr;?></span>
-<span class="error">* <?php echo $phoneErr;?></span>
-      
+<br>
+
 <?php include 'bottom.php';?>
       
   </body>
-
+    
 </html>
 

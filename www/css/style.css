@@ -148,7 +148,7 @@ form h2 {
   font-weight: bolder; }
 
 fieldset {
-  background-color: #DBC2CF; }
+  background-color: #696969; }
 
 .formtitle {
   margin: 0;
@@ -156,22 +156,11 @@ fieldset {
   height:30px; }
 
 .formitem, .button {
-  color: #822b9a;
   text-align: center;
   padding:8px;
   display: inline-block; }
 
-.checkboxes {
-  color: #822b9a;
-  text-align: justify;
-  padding:0px;
-  display: inline-block;
-  top:0;
-  padding-left:10px;
-  padding-right:90px; }
-
 label {
-  color: #822b9a;
   font-size:20px;
   font: "Times New Roman";
   display: inline-block;
@@ -180,12 +169,8 @@ label {
 #firstname, #lastname, #phone, #email{
   width: 190px;
   height:30px;
-  border: 2px solid #DBC2CF;
+  border: 2px solid;
   border-radius: 4px; }
-
-input [type=checkbox] {
-  width:10px;
-  height:20px; }
 
 input:focus {
   background-color: #9FA2B2; }
@@ -202,6 +187,7 @@ textarea {
   font-size:5px; }
 
 .showerror {
+  display:inline-block;
   background-color: red;
   padding:0; }
 
