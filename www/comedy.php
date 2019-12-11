@@ -26,6 +26,41 @@
         <br>
         <br>
         
+    <a href="#thisistheend">
+        <img class="type2" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
+    </a>
+    <a href="#theinterview">
+       <img class="type2" src="http://ali8.cs321.simmons.edu/images/theinterview.jpg">
+    </a>    
+    <a href="#thedictator">
+        <img class="type2" src="http://ali8.cs321.simmons.edu/images/thedictator.jpg">
+    </a> 
+    <a href="#bladesofglory">
+       <img class="type2" src="http://ali8.cs321.simmons.edu/images/bladesofglory.jpg">
+    </a>  
+    <a href="#roughnight">
+       <img class="type2" src="http://ali8.cs321.simmons.edu/images/roughnight.jpg">
+    </a> 
+    <a href="#dukesofhazzard">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/dukesofhazzard.jpg">
+    </a> 
+     <a href="#popstar">
+       <img class="type2" src="http://ali8.cs321.simmons.edu/images/popstar.jpg">
+    </a> 
+    <a href="#21jumpstreet">
+      <img class="type2" src="http://ali8.cs321.simmons.edu/images/21jumpstreet.jpg">
+    </a> 
+    <a href="#thehangover">
+       <img class="type2" src="http://ali8.cs321.simmons.edu/images/thehangover.jpg">
+    </a> 
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
     <h1>Comedy</h1>
     
         <br>
@@ -34,18 +69,11 @@
         <br>
         <br>
         <br>
+        <br>
+        <br>
+        <br>
         
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/theinterview.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thedictator.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/bladesofglory.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/roughnight.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thedukesofhazzard.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/popstar.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/21jumpstreet.jpg">
-    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thehangover.jpg">
- 
-        
+        <a id="thisistheend">    
         <h1>This is the End</h1>
         
         <br>
@@ -82,6 +110,7 @@
         <br>
         <br>
         
+        <a id="theinterview">
         <h1>The Interview</h1>
         
         <br>
@@ -119,7 +148,8 @@
         <br>
         <br>
         <br>
-
+        
+        <a id="thedictator">
         <h1>The Dictator</h1>
         
         <br> 
@@ -157,7 +187,8 @@
         <br>
         <br>
         <br>
-         
+        
+        <a id="21jumpstreet">
         <h1>21 Jump Street</h1>
         
         <br>
@@ -195,7 +226,8 @@
         <br>
         <br>
 
-        <h1>Blades of Glory</h1>
+        <a id="bladesofglory">
+        <h1>Blades of Glory</h1>  
         
         <br>
     
@@ -230,8 +262,9 @@
         <br>
         <br>
         
+        <a id="roughnight">
         <h1>Rough Night</h1>
-        
+          
         <br>
     
         <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
@@ -265,6 +298,7 @@
         <br>
         <br>
         
+        <a id="dukesofhazzard"> 
         <h1>Dukes of Hazzard</h1>
         
         <br>
@@ -300,6 +334,7 @@
         <br>
         <br>
 
+        <a id="popstar"> 
         <h1>Popstar: Never Stop Never Stopping</h1>
         
         <br>
@@ -335,6 +370,7 @@
         <br>
         <br>
         
+        <a id="thehangover"> 
         <h1>The Hangover</h1>
         
         <br>
