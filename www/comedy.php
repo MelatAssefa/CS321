@@ -15,17 +15,36 @@
     
   </style>
 
-  </style>
-
   <body>
 
     <div class="header">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         
     <h1>Comedy</h1>
     
         <br>
         <br>
         <br>
+        <br>
+        <br>
+        <br>
+        
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/theinterview.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thedictator.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/bladesofglory.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/roughnight.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thedukesofhazzard.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/popstar.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/21jumpstreet.jpg">
+    <img class="type2" src="http://ali8.cs321.simmons.edu/images/thehangover.jpg">
+ 
         
         <h1>This is the End</h1>
         
@@ -175,44 +194,7 @@
         <br>
         <br>
         <br>
-        
-        <h1>21 Jump Street</h1>
-        
-        <br>
-    
-        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
-            unit, they use their youthful appearances to go under cover as high-school students. 
-            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
-            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
-            like it was just a few years earlier -- and, what's more, they must again confront the 
-            teenage terror and anxiety they thought they had left behind.
-        </h7>
-        
-        <br>
-        <br>
-        <br>
 
-        <iframe src="https://open.spotify.com/embed/playlist/4dTGwYyBI5NAoiLZt1SUj3" 
-                width="300" height="360" frameborder="0" allowtransparency="true" 
-            allow="encrypted-media" margin-left="0">
-        </iframe>
-
-        <iframe width="635" height="360" src="https://www.youtube.com/embed/RLoKtb4c4W0" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-        </iframe>
-        
-        <br>
-        
-        <blockquote>
-            They don't serve vegan in prison.
-            <span class="author"><i>Jenko</i></span>
-        </blockquote>
-            
-        <br>
-        <br>
-        <br>
-        
         <h1>Blades of Glory</h1>
         
         <br>
@@ -319,6 +301,41 @@
         <br>
 
         <h1>Popstar: Never Stop Never Stopping</h1>
+        
+        <br>
+    
+        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
+            unit, they use their youthful appearances to go under cover as high-school students. 
+            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
+            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
+            like it was just a few years earlier -- and, what's more, they must again confront the 
+            teenage terror and anxiety they thought they had left behind.
+        </h7>
+        
+        <br>
+        <br>
+        <br>
+        
+        <iframe src="https://open.spotify.com/embed/playlist/39N9iAdywoOyOaLasjWs4S" 
+            width="300" height="360" frameborder="0" allowtransparency="true" 
+            allow="encrypted-media" margin-left="0"></iframe>
+
+        <iframe width="635" height="360" src="https://www.youtube.com/embed/Q9RoNzJrmDo" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+   
+        <br>
+        
+        <blockquote>
+            That's a third of the way to Mars!
+            <span class="author"><i>Jenko</i></span>
+        </blockquote>
+            
+        <br>
+        <br>
+        <br>
+        
+        <h1>The Hangover</h1>
         
         <br>
     

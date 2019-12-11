@@ -11,7 +11,7 @@
     
     <style>
         body {
-          background-image: url('background2.jpg'); }
+          background-image: url('images/background2.jpg'); }
     </style>
 
 <body>
@@ -31,10 +31,6 @@
     <br>   
     <br>
     <br>
-    
-    <?php
-        echo "_________________________________ " . date("Y.m.d") . " _______________________________<br>";
-    ?>
 
     <h1>Melat's Film Guide</h1>
     
