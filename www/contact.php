@@ -10,7 +10,8 @@
 
   <body>
       
-    <?php
+<?php
+    
 $firstnameErr =  $lastnameErr = $emailErr = $phoneErr = "";
 $firstname = $lastname = $email = $phone = "";
 
@@ -40,8 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
       $emailErr = "Invalid email format";
     }
-  }
-    
+  } 
 }
 
 function test_input($data) {
@@ -86,34 +86,6 @@ function test_input($data) {
           <label for="email">EMAIL: </label>
           <div class="erroremail"></div>
           <input type="email" id="email" name="email">
-        </div>
-
-        <div class="formitem">
-          <label for="notes">ADD A NOTE: </label>
-          <div class="errornotes"></div>
-          <textarea id="notes" name="notes"></textarea>
-        </div>
-
-        <div class="checkboxes">
-          <label for="request">REQUEST TYPE: </label>
-          <div class="errorrequest"></div>
-            <input type="checkbox" name="selectall" id="selectall" > Select All<br>
-          <div class="undercheckbox">
-            <input type="checkbox" name="question" id="option1" value="question" > Quick Question<br>
-            <input type="checkbox" name="suggestion" id="option2" value="suggestion"> Suggest a Movie<br>
-            <input type="checkbox" name="feedback" id="option3" value="feedback"> Provide Feedback<br>
-          </div>
-        </div>
-
-        <div class="formitem2">
-          <label for="regarding">I'M A: </label>
-          <div class="errorregarding"></div>
-            <select name="regarding" required>
-              <option value="#">Select One:</option>
-              <option value="student">Student</option>
-              <option value="professor">Professor</option>
-              <option value="other">Other</option>
-            </select>
         </div>
       
         <div class="button">

@@ -3,9 +3,9 @@
 <html lang="en">
 
   <head>
-    <meta charset=”utf-8”>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="http://ali8.cs321.simmons.edu/css/style.css">
-    <link rel='icon' href='http://ali8.cs321.simmons.edu/images/favicon.ico' type='image/x-icon'/ >
+    <link rel='icon' href='http://ali8.cs321.simmons.edu/images/favicon.ico' type='image/x-icon'/>
          
     <!--Favicon: https://www.iconfinder.com/icons/1298806/action_design_movie_process_round_icon-->
     
@@ -28,7 +28,6 @@
             <a href="movies\thewolfofwallstreet.php">The Wolf of Wall Street</a>
             <a href="movies\panslabyrinth.php">Pan's Labyrinth</a>
             <a href="movies\underthetuscansun.php">Under The Tuscan Sun</a>
-
           </div>
         </li>
         <li class="drop1">

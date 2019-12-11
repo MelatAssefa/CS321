@@ -1,62 +1,59 @@
 <?php include 'top.php'; ?>
 
-<!doctype html>
+<!DOCTYPE html>
 
-<html lang="en">
+<html>
     
     <head>
         <title>Melat's Film Guide</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
+    
+    <style>
+        body {
+          background-image: url('background2.jpg'); }
+    </style>
 
-  <body>
-
+<body>
+    
     <div class="header">
-    <img src="http://ali8.cs321.simmons.edu/images/thisistheend.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/theinterview.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/trueromance.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/push.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/nerve.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/goodtime.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/pulpfiction.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thedictator.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/amelie.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/bladesofglory.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/roughnight.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thedukesofhazzard.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/popstar.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/21jumpstreet.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thehangover.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/500daysofsummer.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thewolfofwallstreet.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/panslabyrinth.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/underthetuscansun.jpg">
-
-        <h1 class="title">Melat's Film Guide</h1>
         
-    <img src="http://ali8.cs321.simmons.edu/images/babydriver.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/ .jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/onceuponatimeinhollywood.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/50firstdates.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/nerve.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/goodtime.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/pulpfiction.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thedictator.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/amelie.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/bladesofglory.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/roughnight.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thedukesofhazzard.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/popstar.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/21jumpstreet.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thehangover.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/500daysofsummer.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/thewolfofwallstreet.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/panslabyrinth.jpg">
-    <img src="http://ali8.cs321.simmons.edu/images/underthetuscansun.jpg">
-    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>   
+    <br>
+    <br>
+    
+    <?php
+        echo "_________________________________ " . date("Y.m.d") . " _______________________________<br>";
+    ?>
 
+    <h1>Melat's Film Guide</h1>
+    
+    _____________________________________________________________________________________<br>
+   
+    <br>
+    
+    <h8>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut nisi a nisl suscipit semper in at quam. 
+        Quisque vestibulum lobortis posuere. Vestibulum ac ultricies ante. Praesent
+        congue mauris eu massa rutrum elementum. Morbi sed ipsum lacus. Sed viverra lacus non nisi laoreet
+        ornare. Nullam laoreet diam nunc. Nunc eu tellus purus. Proin turpis sem, malesuada in laoreet a, imperdiet
+        sit amet arcu. Donec et justo purus. Nullam tincidunt lacinia nibh at tincidunt. Donec egestas ut quam at mollis.
+        Vivamus lectus magna, aliquet sollicitudin tempus eu, porttitor vitae sem.
+        Pellentesque molestie diam et dictum congue. Donec pulvinar porttitor nisl, eu interdum turpis finibus a.</h8>
+    
     <?php include 'bottom.php';?>
-
-  </body>
+    
+</body>
 
 </html>
+
+
