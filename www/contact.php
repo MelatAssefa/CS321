@@ -20,11 +20,13 @@
 <br>
 <br>
 <br>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
       
 <?php
    
-$firstnameErr =  $lastnameErr = $emailErr = $phoneErr = "";
-$firstname = $lastname = $email = $phone = "";
+$firstnameErr =  $lastnameErr = $emailErr = "";
+$firstname = $lastname = $email = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["firstname"])) {
@@ -66,7 +68,7 @@ function test_input($data) {
       <h1 class="title2">Contact Me</h1>
     </div>
      
-    <form name="form1" id="form1"  action="formprocessor.php" method=”POST” enctype=”multipart/form-data”>
+    <form name="form1" id="form1" action="mailto:melatassefa@gmail.com" method=”POST” enctype=”multipart/form-data”>
        
        <fieldset>
 
@@ -94,6 +96,11 @@ function test_input($data) {
           <div class="erroremail"></div>
           <input type="email" id="email" name="email">
         </div>
+           
+        <div class="formitem">
+          <label for="note">MESSAGE: </label>
+          <input type="textarea" id="textarea" name="textarea">
+        </div>
       
         <div class="button">
           <a href="#send">
@@ -116,6 +123,16 @@ function test_input($data) {
 <?php include 'bottom.php';?>
       
   </body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154472598-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154472598-1');
+</script>
     
 </html>
 

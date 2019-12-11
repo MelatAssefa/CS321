@@ -231,12 +231,12 @@
         
         <br>
     
-        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
-            unit, they use their youthful appearances to go under cover as high-school students. 
-            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
-            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
-            like it was just a few years earlier -- and, what's more, they must again confront the 
-            teenage terror and anxiety they thought they had left behind.
+        <h7>Chazz Michael Michaels and Jimmy MacElroy are the two titans of skating. At the 
+            Winter Olympics, the fierce rivals find themselves forced to share the winner's 
+            podium when they both score gold. The shower of glory doesn't last for long, as 
+            the pair descend into fisticuffs and set the mascot on fire. Disgraced and stripped 
+            of their medals, they can get back on ice, but only if they dance with each other as 
+            a pair.
         </h7>
         
         <br>
@@ -255,7 +255,7 @@
         
         <blockquote>
             They laughed at Louis Armstrong when he said he was gonna go to the moon. Now he's up there laughing at them.
-            <span class="author"><i>Jenko</i></span>
+            <span class="author"><i>Chazz Michael Michaels</i></span>
         </blockquote>
             
         <br>
@@ -267,12 +267,11 @@
           
         <br>
     
-        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
-            unit, they use their youthful appearances to go under cover as high-school students. 
-            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
-            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
-            like it was just a few years earlier -- and, what's more, they must again confront the 
-            teenage terror and anxiety they thought they had left behind.
+        <h7>Jess is an engaged politician who reunites with three of her college friends for 
+            a wild bachelorette weekend in Miami. The night of hard partying soon takes a 
+            hilariously dark turn when a male stripper accidentally dies at their beach house. 
+            Amid the craziness of trying to cover it up, the women ultimately find themselves 
+            becoming closer when it matters most.        
         </h7>
         
         <br>
@@ -291,7 +290,7 @@
         
         <blockquote>
             This country should be burned to the ground!
-            <span class="author"><i>Jenko</i></span>
+            <span class="author"><i>Kate</i></span>
         </blockquote>
             
         <br>
@@ -303,12 +302,12 @@
         
         <br>
     
-        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
-            unit, they use their youthful appearances to go under cover as high-school students. 
-            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
-            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
-            like it was just a few years earlier -- and, what's more, they must again confront the 
-            teenage terror and anxiety they thought they had left behind.
+        <h7>Just some good old boys, never meaning no harm. But cousins Bo and Luke Duke 
+            certainly have a way of finding trouble with the law everywhere they turn. Their 
+            adventures as the Robin Hoods of their rural community of Hazzard County lead them 
+            to wild escapes, aided by their souped-up Dodge Charger called the General Lee. The 
+            boys' nemesis is Boss Hogg, a corrupt politician who constantly sicks his minion, 
+            Sheriff Rosco P. Coltrane, on the Dukes.
         </h7>
         
         <br>
@@ -327,7 +326,7 @@
         
         <blockquote>
             We converted.
-            <span class="author"><i>Jenko</i></span>
+            <span class="author"><i>Bo</i></span>
         </blockquote>
             
         <br>
@@ -339,12 +338,11 @@
         
         <br>
     
-        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
-            unit, they use their youthful appearances to go under cover as high-school students. 
-            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
-            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
-            like it was just a few years earlier -- and, what's more, they must again confront the 
-            teenage terror and anxiety they thought they had left behind.
+        <h7>Childhood friends Conner (Andy Samberg), Owen (Jorma Taccone) and Lawrence (Akiva Schaffer) 
+            found fame and fortune after forming the hip-hop group the Style Boyz. Owen and Lawrence faded 
+            into the background when frontman Conner left the band to launch a successful solo career. Now, 
+            the egotistical singer decides to film a documentary about his life while he's still on top. 
+            When his second album flops, the camera is there to capture his world come crashing down.
         </h7>
         
         <br>
@@ -363,45 +361,12 @@
         
         <blockquote>
             That's a third of the way to Mars!
-            <span class="author"><i>Jenko</i></span>
+            <span class="author"><i>Connor</i></span>
         </blockquote>
             
         <br>
         <br>
         <br>
-        
-        <a id="thehangover"> 
-        <h1>The Hangover</h1>
-        
-        <br>
-    
-        <h7>When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street 
-            unit, they use their youthful appearances to go under cover as high-school students. 
-            They trade in their guns and badges for backpacks, and set out to shut down a dangerous 
-            drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing 
-            like it was just a few years earlier -- and, what's more, they must again confront the 
-            teenage terror and anxiety they thought they had left behind.
-        </h7>
-        
-        <br>
-        <br>
-        <br>
-        
-        <iframe src="https://open.spotify.com/embed/playlist/39N9iAdywoOyOaLasjWs4S" 
-            width="300" height="360" frameborder="0" allowtransparency="true" 
-            allow="encrypted-media" margin-left="0"></iframe>
-
-        <iframe width="635" height="360" src="https://www.youtube.com/embed/Q9RoNzJrmDo" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
-   
-        <br>
-        
-        <blockquote>
-            That's a third of the way to Mars!
-            <span class="author"><i>Jenko</i></span>
-        </blockquote>
-            
         <br>
         <br>
         <br>

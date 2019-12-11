@@ -1,18 +1,13 @@
 <?php include 'top.php'; ?>
 
-<!DOCTYPE html>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<html>
-    
-    <head>
-        <title>Melat's Film Guide</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    </head>
-    
-    <style>
+<style>
+
         body {
           background-image: url('images/background2.jpg'); }
-    </style>
+        
+</style>
 
 <body>
     
@@ -46,8 +41,18 @@
         Vivamus lectus magna, aliquet sollicitudin tempus eu, porttitor vitae sem.
         Pellentesque molestie diam et dictum congue. Donec pulvinar porttitor nisl, eu interdum turpis finibus a.</h8>
     
+    </div>
+    
     <?php include 'bottom.php';?>
     
-</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154472598-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-</html>
+  gtag('config', 'UA-154472598-1');
+</script>
+
+</body>
